@@ -1,23 +1,23 @@
-# fly.toml file generated for adam-nagy-portfolio on 2023-03-24T19:18:13Z
+# fly.toml file generated for misty-pine-2739 on 2023-03-24T20:11:50Z
 
-app = "adam-nagy-portfolio"
+app = "misty-pine-2739"
 kill_signal = "SIGINT"
 kill_timeout = 5
-primary_region = "sea"
+primary_region = "lhr"
 processes = []
 
 [build]
   builder = "heroku/buildpacks:20"
 
 [env]
-  PORT = "5000"
+  PORT = "8080"
 
 [experimental]
   auto_rollback = true
 
 [[services]]
   http_checks = []
-  internal_port = 5000
+  internal_port = 8080
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
