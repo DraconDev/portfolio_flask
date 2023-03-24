@@ -21,7 +21,7 @@ user = {
         "MongoDB",
         "SQL",
         "HTML",
-        "CSSS",
+        "CSS",
         "SASS",
         "styled components",
         "git",
