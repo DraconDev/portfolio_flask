@@ -1,0 +1,16 @@
+{% block skills_component %}
+<!-- Skills -->
+<section id="skills" class="main style3 primary">
+	<div class="content">
+		<header>
+			<h2 style="font-size: 5rem">Skills</h2>
+		</header>
+		<div class="skillList">
+			<ul>
+				{% set skill_list = " ".join(skills)%}
+				<p>{{skill_list}}</p>
+			</ul>
+		</div>
+	</div>
+</section>
+{% endblock %}

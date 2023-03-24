@@ -1,0 +1,41 @@
+{% block work_component %}
+<section id="work" class="main style3 primary">
+	<div class="content">
+		<header>
+			<h2 style="font-size: 5rem">Projects</h2>
+		</header>
+
+		<div class="gallery">
+			{%for key, project in projects.items()%}
+            {%if key % 2 == 0 %}
+                <article class="from-right">
+            {% else %}
+                <article class="from-left">
+            {%endif %}
+				<p class="image-title">
+					{{project.name}}<a
+						href="{{project.github_link}}"
+						target="_blank"
+						class="icon brands fa-github title-github-icon"
+						><span class="label">Github</span></a
+					>
+				</p>
+				<a
+					href="{{project.host_link}}"
+					target="_blank"
+					class="image fit project-picture"
+					><img
+						className="project-image"
+                        src="{{ url_for('static', filename=project.image_path) }}"
+						title="Air Lounge"
+						alt=""
+				/>
+                <p class="project_description">Technologies used</p>
+                <p class="project_description">{{project.description}}</p></a>
+
+			</article>
+            {%endfor%}
+		</div>
+	</div>
+</section>
+{% endblock %}

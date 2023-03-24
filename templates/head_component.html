@@ -1,0 +1,21 @@
+{% block head_component %}
+<head>
+    <link rel="icon" href="./static/favicon.png" />
+    <title>{{name}} {{job_title}}</title>
+    <meta charset="utf-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href={{ url_for('static',
+    filename='css/main.css') }} />
+    <noscript>
+        <link rel="stylesheet" href={{ url_for('static',
+        filename='css/noscript.css') }} />
+    </noscript>
+</head>
+{% endblock %}

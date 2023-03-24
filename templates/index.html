@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head -->
+	{% block head_component %} {% include "head_component.html" %} {% endblock
+	%}
+	<body class="is-preload">
+		<!-- Header -->
+		{% block header_component %} {% include "header_component.html" %} {%
+		endblock %}
+
+		<!-- Intro -->
+		{% block introduction_component %} {% include
+		"introduction_component.html" %} {% endblock %}
+
+		<!-- Projects -->
+		{% block work_component %} {% include "work_component.html" %} {%
+		endblock %}
+
+		<!-- Skills -->
+		{% block skills_component %} {% include "skills_component.html" %} {%
+		endblock %}
+
+		<!-- Footer -->
+		{% block footer_component %} {% include "footer_component.html" %} {%
+		endblock %}
+	</body>
+	<!-- Scripts -->
+	{% block scripts_component %} {% include "scripts_component.html" %} {%
+	endblock %}
+</html>
