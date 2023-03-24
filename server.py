@@ -44,9 +44,9 @@ user = {
         },
         2: {
             "name": "This portfolio",
-            "github_link": "https://github.com/Nadaga/movie-site",
+            "github_link": "https://github.com/DraconDev/portfolio_flask",
             "description": "Python Flask Jinja Javascript HTML SASS CSS",
-            "host_link": "https://movie-site-f90c7.web.app/",
+            "host_link": "/",
             "image_path": "images/thumbs/portfolio.jpg",
         },
     },
@@ -59,4 +59,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
