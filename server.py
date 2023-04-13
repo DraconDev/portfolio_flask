@@ -33,7 +33,7 @@ user = {
             "github_link": "https://github.com/DraconDev/screensaga",
             "description": "Next SWR Typescript MUI Vercel OMDB_API YOUTUBE_API",
             "host_link": "https://screensaga-k8ou.vercel.app/",
-            "image_path": "images/thumbs/screen_saga.png",
+            "image_path": "images/thumbs/screen_saga.jpg",
         },
         1: {
             "name": "Amazon Store",
@@ -45,7 +45,7 @@ user = {
         2: {
             "name": "Movie Site",
             "github_link": "https://github.com/Nadaga/movie-site",
-            "description": "React Javascript REST MUI Firebase",
+            "description": "React Javascript MUI Firebase",
             "host_link": "https://movie-site-f90c7.web.app/",
             "image_path": "images/thumbs/movieSite.jpg",
         },
