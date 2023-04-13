@@ -29,20 +29,27 @@ user = {
     ],
     "projects": {
         0: {
+            "name": "Screen Saga: Find movies and recommendations",
+            "github_link": "https://github.com/DraconDev/screensaga",
+            "description": "Next SWR Typescript MUI Vercel OMDB_API YOUTUBE_API",
+            "host_link": "https://screensaga-k8ou.vercel.app/",
+            "image_path": "images/thumbs/screen_saga.png",
+        },
+        1: {
             "name": "Amazon Store",
             "github_link": "https://github.com/Nadaga/amazon-clone",
             "description": "React Redux Typescript SCSS Firebase",
             "host_link": "https://heuristic-wing-b57de6.netlify.app/",
             "image_path": "images/thumbs/amazonStore.jpg",
         },
-        1: {
+        2: {
             "name": "Movie Site",
             "github_link": "https://github.com/Nadaga/movie-site",
             "description": "React Javascript REST MUI Firebase",
             "host_link": "https://movie-site-f90c7.web.app/",
             "image_path": "images/thumbs/movieSite.jpg",
         },
-        2: {
+        3: {
             "name": "This portfolio",
             "github_link": "https://github.com/DraconDev/portfolio_flask",
             "description": "Python Flask Jinja Javascript HTML SASS CSS",
