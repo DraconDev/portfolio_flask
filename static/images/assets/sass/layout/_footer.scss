@@ -10,7 +10,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'space-between');
-		position: relative;
+		position: relative !important;
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;

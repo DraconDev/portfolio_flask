@@ -2337,7 +2337,7 @@ body.is-touch .main {
     /* color: rgba(185, 186, 187, 0.5); */
     color: rgba(212, 216, 219, 0.8);
     overflow: hidden;
-    position: fixed;
+
     z-index: 10000;
     left: 0;
     bottom: 0;
@@ -2501,6 +2501,28 @@ a {
 .skillList {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-column {
+    width: 30%;
+    /* background-color: #222527; */
+    background-color: #161616;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.skill-title {
+    font-size: 30px !important;
+    align-self: center;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    margin-bottom: 5px;
 }
 
 .skillList__skill {
@@ -2519,7 +2541,7 @@ a {
     transition: 1s;
 }
 
-.image:hover {
+image:hover {
     transition: 2s ease;
     transform: scale(1.03);
 }
