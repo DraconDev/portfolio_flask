@@ -1,0 +1,45 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def index():\n    return render_template(\"index.html\", **user)\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", port=5000, debug=True)",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "app = Flask(__name__, static_url_path=\"/static\")\nuser = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"devdracon@gmail.com\",\n    \"skills\": [\n        \"ReactJS\",\n        \"Redux\",\n        \"Typescript\",\n        \"Node.js\",",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "user = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"devdracon@gmail.com\",\n    \"skills\": [\n        \"ReactJS\",\n        \"Redux\",\n        \"Typescript\",\n        \"Node.js\",\n        \"Express\",",
+        "detail": "server",
+        "documentation": {}
+    }
+]

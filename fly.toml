@@ -1,13 +1,13 @@
-# fly.toml file generated for misty-pine-2739 on 2023-03-24T20:11:50Z
+# fly.toml file generated for adamnagy-portfolio on 2023-04-13T15:14:40+01:00
 
-app = "misty-pine-2739"
+app = "adamnagy-portfolio"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "lhr"
 processes = []
 
 [build]
-  builder = "heroku/buildpacks:20"
+  builder = "paketobuildpacks/builder:base"
 
 [env]
   PORT = "8080"

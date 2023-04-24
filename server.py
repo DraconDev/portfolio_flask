@@ -31,7 +31,7 @@ user = {
         0: {
             "name": "Screen Saga: Find movies and recommendations",
             "github_link": "https://github.com/DraconDev/screensaga",
-            "description": "Next SWR Typescript MUI Vercel OMDB_API YOUTUBE_API",
+            "description": "Next Typescript MUI SWR",
             "host_link": "https://screensaga-k8ou.vercel.app/",
             "image_path": "images/thumbs/screen_saga.jpg",
         },
@@ -50,9 +50,16 @@ user = {
             "image_path": "images/thumbs/movieSite.jpg",
         },
         3: {
+            "name": "Amazon Filter",
+            "github_link": "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
+            "description": "Next Typescript Tailwind Playwright Zustand",
+            "host_link": "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
+            "image_path": "images/thumbs/amazon_filter.jpg",
+        },
+        4: {
             "name": "This portfolio",
             "github_link": "https://github.com/DraconDev/portfolio_flask",
-            "description": "Python Flask Jinja Javascript HTML SASS CSS",
+            "description": "Python Flask Jinja",
             "host_link": "/",
             "image_path": "images/thumbs/portfolio.jpg",
         },
