@@ -1621,7 +1621,6 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav {
     position: absolute;
-    right: 0.5em;
     top: 0;
     height: 3em;
     line-height: 3em;
@@ -1633,7 +1632,7 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav ul li {
     display: inline-block;
-    margin-left: 0.5em;
+
     font-size: 0.9em;
 }
 
@@ -2035,4 +2034,3 @@ body.is-touch .main {
     }
 }
 /*# sourceMappingURL=main.css.map */
-

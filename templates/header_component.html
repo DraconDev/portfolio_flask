@@ -1,20 +1,26 @@
 {% block header_component %}
 <header id="header">
     <nav class="headerList">
-        <ul class="headerLinks">
-            <li class="listName navItems" style="margin-left: 25px">
-                <a href="#intro">{{name}}</a>
-            </li>
-            <li class="navItems">
-                <a class="navLinks" href="#work">Projects</a>
-            </li>
-            <li class="navItems">
-                <a class="navLinks" href="#skills">Skills</a>
-            </li>
-            <li class="navItems">
-                <a class="navLinks" href="mailto:{{email}}">Contact</a>
-            </li>
-        </ul>
+        <div>
+            <ul class="headerLinkRow">
+                <li class="listName navItems">
+                    <a href="#intro">{{name}}</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="headerLinkRow">
+                <li class="navItems">
+                    <a class="navLinks" href="#work">Projects</a>
+                </li>
+                <li class="navItems">
+                    <a class="navLinks" href="#skills">Skills</a>
+                </li>
+                <li class="navItems">
+                    <a class="navLinks" href="mailto:{{email}}">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </header>
 {% endblock %}

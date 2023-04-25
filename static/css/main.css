@@ -533,7 +533,7 @@ body:before {
     cursor: default;
     display: block;
     font-size: 2em;
-    height: 2em;
+    height: 0em !important;
     left: 50%;
     line-height: 2em;
     margin: -1em 0 0 -1em;
@@ -1995,7 +1995,6 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav {
     position: absolute;
-    right: 0.5em;
     top: 0;
     height: 3em;
     line-height: 3em;
@@ -2020,40 +2019,10 @@ body.is-touch .poptrox-popup .closer {
 }
 
 #header {
-    /* background-color: white; */
     background-color: #222 !important;
-    /* filter: brightness(95%); */
     color: white !important;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0px;
-    /* display: flex; */
-}
-
-.headerLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navItems {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin: 2px 10px 0px 10px;
-    /* padding: 0px 10px 10px 0px; */
-    /* line-height: 1em !important; */
-}
-
-.listName {
-    /* justify-self: flex-start; */
-    margin-left: 10px;
-    margin-right: auto;
-}
-
-.navLinks {
-    /* line-height: 1em !important; */
-    height: 100%;
 }
 
 #header nav ul {
@@ -2064,7 +2033,7 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav ul li {
     display: inline-block;
-    margin-left: 0.5em;
+
     font-size: 0.9em;
 }
 
@@ -2104,7 +2073,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 body {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 @media screen and (max-width: 736px) {
@@ -2649,4 +2618,63 @@ a:link {
     select {
         font-size: 13pt;
     }
+}
+
+#header {
+    background-color: #222 !important;
+    color: white !important;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.navItems {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin: 2px 10px 0px 10px; */
+    /* padding: 0px 10px 10px 0px; */
+    /* line-height: 1em !important; */
+}
+
+.headerLinkRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0px;
+    font-size: 22px !important;
+    /* margin: 2px 10px 0px 10px; */
+    /* padding: 0px 10px 10px 0px; */
+    /* line-height: 1em !important; */
+}
+
+.navLinks {
+    /* line-height: 1em !important; */
+    height: 100%;
+}
+
+.listName {
+    /* justify-self: flex-start; */
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+    flex-grow: 1 !important;
+}
+
+.headerList {
+    /* right: 0px !important;
+    bottom: 0px !important;
+    padding: 0px !important; */
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important;
 }
