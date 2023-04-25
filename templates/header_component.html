@@ -2,16 +2,19 @@
 <header id="header">
     <nav class="headerList">
         <ul class="headerLinks">
-            <li class="listName"><a href="#intro">{{name}}</a></li>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="mailto:{{email}}">Contact</a></li>
+            <li class="listName navItems" style="margin-left: 25px">
+                <a href="#intro">{{name}}</a>
+            </li>
+            <li class="navItems">
+                <a class="navLinks" href="#work">Projects</a>
+            </li>
+            <li class="navItems">
+                <a class="navLinks" href="#skills">Skills</a>
+            </li>
+            <li class="navItems">
+                <a class="navLinks" href="mailto:{{email}}">Contact</a>
+            </li>
         </ul>
     </nav>
 </header>
-<style>
-    .headerLinks {
-        padding: 4px 10px;
-    }
-</style>
 {% endblock %}
