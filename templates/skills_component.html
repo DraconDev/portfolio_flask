@@ -9,9 +9,13 @@
             {%for category, technologies in skills.items()%}
             <div class="skill-column">
                 <p class="skill-title">{{category}}</p>
-                {%for tech in technologies%}
-                <p class="skill-item">{{tech}}</p>
-                {%endfor%}
+                {% for index in range(0,technologies|length) %} {% if index%2%}
+                <p class="skill-item">{{technologies[index]}}</p>
+                {% else%}
+                <p class="skill-item skill-item-alter">
+                    {{technologies[index]}}
+                </p>
+                {% endif %} {%endfor%}
             </div>
             {%endfor%}
         </div>
