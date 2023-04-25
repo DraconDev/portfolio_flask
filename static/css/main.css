@@ -2509,7 +2509,7 @@ a {
     /* background-color: #222527; */
     background-color: #161616;
     border-radius: 10px;
-    margin: 15px;
+    margin: 15px 5px;
     align-items: center;
     display: flex;
     flex-direction: column;
