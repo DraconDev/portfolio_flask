@@ -29,7 +29,7 @@ user = {
     # ],
     "projects": {
         0: {
-            "name": "Screen Saga: Find movies and recommendations",
+            "name": "Movie recommendations",
             "github_link": "https://github.com/DraconDev/screensaga",
             "description": "Next Typescript MUI SWR",
             "host_link": "https://screensaga-k8ou.vercel.app/",
@@ -82,7 +82,7 @@ user = {
             "ReactQuery",
         ],
         "BackEnd": ["Node", "Express", "Next", "Flask", "Django"],
-        "Design": ["CSS", "SASS", "Tailwind", "MUI", "StyledComponents", "Chakra"],
+        "Design": ["CSS", "SASS", "Tailwind", "MUI", "StyledComp", "Chakra"],
         "Data & API": [
             "Mongo",
             "PostgreSQL",

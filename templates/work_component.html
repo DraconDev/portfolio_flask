@@ -12,14 +12,17 @@
             {% else %}
                 <article class="from-left">
             {%endif %}
+				<div class="titleBox">
 				<p class="image-title">
-					{{project.name}}<a
+					{{project.name}}
+				</p>
+				<a
 						href="{{project.github_link}}"
 						target="_blank"
-						class="icon brands fa-github title-github-icon"
-						><span class="label">Github</span></a
+						class="icon brands fa-github title-github-icon githubLogo"
+						><span class="label ">Github</span></a
 					>
-				</p>
+				</div>
 				<a
 					href="{{project.host_link}}"
 					target="_blank"

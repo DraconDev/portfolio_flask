@@ -1978,6 +1978,7 @@ body.is-touch .poptrox-popup .closer {
     height: 3em;
     line-height: 3em;
     box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid red;
 }
 
 #header h1 {
@@ -2540,7 +2541,7 @@ a {
 }
 
 .skill-title {
-    font-size: 20px !important;
+    font-size: 1.8vh !important;
     align-self: center;
     background-color: #111;
     border-top-right-radius: 10px;
@@ -2555,7 +2556,7 @@ a {
     width: 100%;
     margin: 0;
     padding: 2px;
-    font-size: 15px !important;
+    font-size: 1.5vh !important;
 }
 
 .skill-item-alter {
@@ -2647,9 +2648,9 @@ a:link {
     /* height: 100%; */
     display: flex;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px 5px;
     margin: 0px;
-    font-size: 22px !important;
+    font-size: 2vh !important;
     /* margin: 2px 10px 0px 10px; */
     /* padding: 0px 10px 10px 0px; */
     /* line-height: 1em !important; */
@@ -2677,4 +2678,39 @@ a:link {
     align-items: center;
     justify-content: space-between;
     width: 100% !important;
+}
+
+#footer {
+    line-height: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.image-title {
+    margin: 0px !important;
+}
+.titleBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.githubLogo {
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg); */
+    /* filter: invert(100%); */
+    /* background-color: white; */
+    color: white;
+}
+
+.project-picture {
+    border-top: 2px solid red;
+}
+
+.image-title {
+    font-size: 2.5vh;
+}
+
+.project_description {
+    font-size: 2vh !important;
 }
