@@ -5,7 +5,7 @@ app = Flask(__name__, static_url_path="/static")
 user = {
     "name": "Adam Nagy",
     "introduction": "Software engineer focused on full stack development with over 20 years of programming experience.",
-    "email": "devdracon@gmail.com",
+    "email": "adamnagywork@gmail.com",
     # "skills": [
     #     "ReactJS",
     #     "Redux",
@@ -69,32 +69,32 @@ user = {
             "Javascript",
             "Typescript",
             "Python",
-            "HTML",
-            "C#",
+            "Go",
+            "Rust"
             "C++",
         ],
         "FrontEnd": [
             "React",
+            "Next",
             "Redux",
             "Zustand",
             "Context",
-            "SWR",
-            "ReactQuery",
         ],
-        "BackEnd": ["Node", "Express", "Next", "Flask", "Django"],
-        "Design": ["CSS", "SASS", "Tailwind", "MUI", "StyledComp", "Chakra"],
+        "BackEnd": ["Node", "Express", "Next", "Gin, ""Flask", "Django"],
+        "Design": ["Tailwind","CSS", "SASS", "MUI", ],
         "Data & API": [
             "Mongo",
             "PostgreSQL",
             "AWS",
             "Firebase",
-            "GoogleCloud",
+            "Supabase"
             "Redis",
         ],
         "Automation": ["Playwright", "Selenium"],
         # "Version Control": ["Git"],
     },
 }
+
 
 
 @app.route("/")

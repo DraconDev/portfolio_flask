@@ -29,7 +29,7 @@
         "kind": 5,
         "importPath": "server",
         "description": "server",
-        "peekOfCode": "app = Flask(__name__, static_url_path=\"/static\")\nuser = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"devdracon@gmail.com\",\n    # \"skills\": [\n    #     \"ReactJS\",\n    #     \"Redux\",\n    #     \"Typescript\",\n    #     \"Node.js\",",
+        "peekOfCode": "app = Flask(__name__, static_url_path=\"/static\")\nuser = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"adamnagywork@gmail.com\",\n    # \"skills\": [\n    #     \"ReactJS\",\n    #     \"Redux\",\n    #     \"Typescript\",\n    #     \"Node.js\",",
         "detail": "server",
         "documentation": {}
     },
@@ -38,7 +38,7 @@
         "kind": 5,
         "importPath": "server",
         "description": "server",
-        "peekOfCode": "user = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"devdracon@gmail.com\",\n    # \"skills\": [\n    #     \"ReactJS\",\n    #     \"Redux\",\n    #     \"Typescript\",\n    #     \"Node.js\",\n    #     \"Express\",",
+        "peekOfCode": "user = {\n    \"name\": \"Adam Nagy\",\n    \"introduction\": \"Software engineer focused on full stack development with over 20 years of programming experience.\",\n    \"email\": \"adamnagywork@gmail.com\",\n    # \"skills\": [\n    #     \"ReactJS\",\n    #     \"Redux\",\n    #     \"Typescript\",\n    #     \"Node.js\",\n    #     \"Express\",",
         "detail": "server",
         "documentation": {}
     }
