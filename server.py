@@ -28,6 +28,13 @@ user = {
     #     "docker",
     # ],
     "projects": {
+        -1: {
+            "name": "Job Board",
+            "github_link": "https://github.com/DraconDev/job-board",
+            "description": "Next Typescript Tailwind Playwright Zustand",
+            "host_link": "https://job-board-azure.vercel.app/",
+            "image_path": "images/thumbs/job_board.png",
+        },
         0: {
             "name": "Movie recommendations",
             "github_link": "https://github.com/DraconDev/screensaga",
