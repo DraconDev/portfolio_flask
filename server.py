@@ -31,7 +31,7 @@ user = {
         -1: {
             "name": "Job Board",
             "github_link": "https://github.com/DraconDev/job-board",
-            "description": "Next Typescript Tailwind Playwright Zustand",
+            "description": "Next Typescript Tailwind Zustand Mongo Next-Auth",
             "host_link": "https://job-board-azure.vercel.app/",
             "image_path": "images/thumbs/job_board.png",
         },
