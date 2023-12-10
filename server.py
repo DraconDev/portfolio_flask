@@ -25,7 +25,6 @@ user = {
     #     "HTML",
     #     "CSS",
     #     "SASS",
-    #     "styled components",
     #     "git",
     #     "docker",
     # ],
