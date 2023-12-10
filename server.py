@@ -77,7 +77,7 @@ user = {
             "Typescript",
             "Python",
             "Go",
-            "Rust"
+            "Rust",
             "C++",
         ],
         "FrontEnd": [
@@ -87,14 +87,14 @@ user = {
             "Zustand",
             "Context",
         ],
-        "BackEnd": ["Node", "Express", "Next", "Gin, ""Flask", "Django"],
+        "BackEnd": ["Node", "Express", "Next", "Gin", "Flask", "Django"],
         "Design": ["Tailwind","CSS", "SASS", "MUI", ],
         "Data & API": [
             "Mongo",
             "PostgreSQL",
             "AWS",
             "Firebase",
-            "Supabase"
+            "Supabase",
             "Redis",
         ],
         "Automation": ["Playwright", "Selenium"],

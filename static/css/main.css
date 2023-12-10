@@ -1574,6 +1574,7 @@ body.is-touch .poptrox-popup .closer {
     width: 45em;
     max-width: 100%;
     margin: 0 auto 2em auto;
+    gap: 1em;
 }
 
 .gallery article {
